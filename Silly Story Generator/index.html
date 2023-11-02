@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Silly Story Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Silly Story Generator</h1>
+    </header>
+    <main>
+        <div class="form">
+            <label for="firstPersonName">Enter the name of the first person:</label>
+            <input type="text" id="firstPersonName">
+            <label for="firstPersonGender">Select gender for the first person:</label>
+            <select id="firstPersonGender">
+                <option value="he">Male</option>
+                <option value="his">Female</option>
+            </select>
+            <label for="secondPersonName">Enter the name of the second person:</label>
+            <input type="text" id="secondPersonName">
+            <label for="secondPersonGender">Select gender for the second person:</label>
+            <select id="secondPersonGender">
+                <option value="he">Male</option>
+                <option value="his">Female</option>
+            </select>
+            <label for="country">Select country:</label>
+            <select id="country" required>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="canada">Russia</option>
+                <option value="canada">Australia</option>
+            </select>
+            <label for="year">Select year:</label>
+            <input type="number" id="year" min="1900" max="2099">
+            <button id="generateButton">Generate Story</button>
+        </div>
+        <div class="story" id="story">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
