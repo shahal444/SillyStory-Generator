@@ -1,4 +1,4 @@
-#Silly Story Generator
+# ---Silly Story Generator---
 
 
 ### Hey Sir..
